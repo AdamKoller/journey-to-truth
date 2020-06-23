@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'tex_gyre_adventorregular';
+    src: url('texgyreadventor-regular-webfont.eot');
+    src: url('texgyreadventor-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('texgyreadventor-regular-webfont.woff2') format('woff2'),
+         url('texgyreadventor-regular-webfont.woff') format('woff'),
+         url('texgyreadventor-regular-webfont.ttf') format('truetype'),
+         url('texgyreadventor-regular-webfont.svg#tex_gyre_adventorregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'tex_gyre_adventorbold';
+    src: url('texgyreadventor-bold-webfont.eot');
+    src: url('texgyreadventor-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('texgyreadventor-bold-webfont.woff2') format('woff2'),
+         url('texgyreadventor-bold-webfont.woff') format('woff'),
+         url('texgyreadventor-bold-webfont.ttf') format('truetype'),
+         url('texgyreadventor-bold-webfont.svg#tex_gyre_adventorbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  background-color: #fff !important;
+}
+* {
+  margin: 0;
+}
+.uk-container {
+
+}
+header {
+  background-image: linear-gradient(to top,rgba(0,0,0,0.8),rgba(250,250,250,.5),rgba(0,0,0,0.8)),url('../../../img/banner.jpeg');
+  height: 100vh;
+  width: 100%;
+}
+.banner-heading-wrapper {
+  /* position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%); */
+}
+/* compared */
+.banner-heading .Journey {
+    color: #303240;
+}
+.banner-heading .To {
+    color:#9AD95B;
+}
+.banner-podcast {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  line-height: 30px;
+}
+header h1{
+  font-family: 'tex_gyre_adventorbold';
+  color: #fff;
+  font-size: 70px;
+}
+header p {
+    font-family: 'tex_gyre_adventorregular';
+    color:#fff;
+    letter-spacing: 7px;
+    font-size: 12px;
+}
+header .uk-navbar{
+  color:#fff !important;
+  font-size: 18px;
+  font-family: 'tex_gyre_adventorregular';
+}
+header .uk-navbar li:hover {
+  color:#9AD95B;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+}
+header .offcanvas-menu-button .fa {
+  color: #fff;
+  font-size: 36px;
+  margin: 20px 20px 0 0;
+}
+header .mobile-banner-links {
+    margin: 20px 0 0 20px;
+}
+header .mobile-banner-links a .fa {
+  color: #fff;
+  font-size: 30px;
+}
+header .offcanvas-menu li {
+  color:#000 !important;
+  font-size: 18px;
+  margin:30px 0;
+  font-family: 'tex_gyre_adventorregular';
+}
+header .uk-offcanvas-bar {
+  background: #fff;
+}
+header .find-us {
+  color:#9AD95B;
+  letter-spacing: 1px;
+    font-family: 'tex_gyre_adventorbold';
+}
+header .banner-links a .fa {
+  color: #fff;
+  font-size: 36px;
+}
+header .banner-links a .fa:hover {
+  color: #303240;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+
+}
+header .banner-links {
+  top:60%;
+}
+header .mobile-banner-heading {
+  padding: 200px 0 0 30px;;
+}
+header .mobile-banner-heading h1 {
+  font-size: 60px;
+  line-height: 56px;
+  text-align: left;
+  letter-spacing: -3px;
+}
+header .mobile-banner-heading p {
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+header .To {
+    color:#9AD95B;
+}
+header .Journey {
+  color: #303240;
+}
+/* main content */
+.tune-in-wrapper {
+  padding: 10px 30px;
+}
+.tune-in-heading {
+  font-size: 20px;
+  font-family: 'tex_gyre_adventorregular';
+}
+.tune-in-heading .leave-review {
+  color: #303240;
+  font-family: 'tex_gyre_adventorbold';
+}
+.podcast-slider {
+  padding: 20px 60px;
+}
+.podcast-slider svg {
+  color: #303240;
+  width: 14px;
+}
+.podcast-slider img {
+  width: 70px;
+}
+.mobile-tune-in img {
+  width: 70px;
+  height: 60px;
+}
+.main-content h1 {
+    color: #303240;
+    font-size: 30px;
+  font-family: 'tex_gyre_adventorregular';
+  text-transform: uppercase;
+}
+.main-content p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  line-height: 30px;
+}
+.episode-img {
+
+}
+
+@media screen and (min-width:320px) and (max-width:415px) {
+  .podcast-slider {
+    padding: 0px;
+  }
+  .podcast-slider img {
+    width: 60px ;
+  }
+  .podcast-slider svg {
+    width: 14px;
+  }
+
+}
+
+@media screen and (min-width:320px) and (max-width:359px) {
+
+}
