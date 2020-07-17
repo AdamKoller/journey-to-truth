@@ -42,18 +42,21 @@ header {
   width: 100%;
   overflow: hidden;
 }
-.banner-heading-wrapper {
-  /* position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%); */
+.banner-heading-wrapper{
+  top: 30%;
 }
 /* compared */
 .banner-heading .Journey {
-    color: #303240;
 }
 .banner-heading .To {
-    color:#9AD95B;
+}
+.desktop-banner-heading {
+  top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: max-content;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 .banner-podcast {
   font-size: 30px;
@@ -61,6 +64,17 @@ header {
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
   line-height: 30px;
+      color:#9AD95B;
+      margin-bottom: 80px;
+}
+.banner-desktop-heading, .banner-links {
+top: 34%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: max-content;
+max-width: 100%;
+box-sizing: border-box;
+position: absolute;
 }
 header h1{
   font-family: 'tex_gyre_adventorregular';
@@ -117,13 +131,13 @@ header .banner-links a .fa {
   font-size: 36px;
 }
 header .banner-links a .fa:hover {
-  color: #303240;
+  color:#9AD95B;
   cursor: pointer;
   transition: .2s ease-in-out;
 
 }
 header .banner-links {
-  top:60%;
+
 }
 header .mobile-banner-heading {
   padding: 200px 10px 0 10px;
@@ -149,10 +163,15 @@ header .To {
 header .Journey {
   color: #fff;
 }
-header .moon-banner img {
+header .moon-banner img{
   /* background-image: url("../../../img/moon-banner.png"); */
-  width: 1000px;
+  width: 950px;
+  margin-top: 400px;
 }
+/* header .moon-banner {
+  background-image: url("../../../img/moon-banner.png");
+  width: 1000px;
+} */
 /* main content */
 .tune-in-wrapper {
   padding: 10px 30px;
@@ -198,16 +217,15 @@ header .moon-banner img {
   color: #fff;
 }
 .top-episodes-wrapper a {
-      color:#9AD95B;
+  color: #fff;
 }
 .top-episodes-wrapper h2 {
-  letter-spacing: 6px;
-  color:#fff;
+      color:#9AD95B;
 }
 
 @media screen and (min-width:320px) and (max-width:415px) {
   header {
-  background-image: linear-gradient(to top,rgba(0,0,0,.4),rgba(0,0,0,.4)),url('../../../img/banner.jpeg');
+  background-image: linear-gradient(to top,rgba(0,0,0,.4),rgba(0,0,0,.8)),url('../../../img/banner.jpeg');
   height: 100vh;
   width: 100%;
   overflow: hidden;
@@ -229,7 +247,9 @@ header .moon-banner img {
     font-size: 23px;
     color:#9AD95B;
   }
-
+  header .moon-banner img{
+    margin-top: 50px;
+  }
 }
 
 @media screen and (min-width:320px) and (max-width:359px) {
